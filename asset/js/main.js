@@ -24,5 +24,10 @@ let userFavouriteColor = prompt('inserisci il tuo colore preferito')
 
 
 //Infine scrivi sulla pagina il risultato usando questo formato: nomecognomecolorepreferito23 
-console.log( `questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}`)
+/* console.log( `questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}23`)
+ */
 
+let securePassword=document.getElementById ('password')
+console.log(securePassword)
+
+securePassword.innerHTML=`Questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}23`
