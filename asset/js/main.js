@@ -14,7 +14,7 @@ const userName = prompt('Inserisci il tuo nome')
 
 
 // poi chiedi il suo cognome
-const surname=prompt('Inserisci il tuo cognome')
+const surname = prompt('Inserisci il tuo cognome')
 
 
 
@@ -27,7 +27,7 @@ const userFavouriteColor = prompt('inserisci il tuo colore preferito')
 /* console.log( `questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}23`)
  */
 
-const securePassword=document.getElementById ('password')
+const securePassword = document.getElementById('password')
 console.log(securePassword)
 
-securePassword.innerHTML=`Questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}23`
+securePassword.innerHTML = `Questa è la tua password sicurissima : ${userName}${surname}${userFavouriteColor}23`
